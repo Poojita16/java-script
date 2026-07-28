@@ -33,3 +33,32 @@ const myFunction = function(){
 }
 
 console.log(typeof myFunction);
+
+
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack vs Heap memory
+
+//Stack(primitive), Heap(Non-primitive)
+
+let myYouTubename = "Poojitachaturvedidotcom"
+
+let anotherName = myYouTubename
+anothername = "poojitalost"
+console.log(myYouTubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "poojita@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
